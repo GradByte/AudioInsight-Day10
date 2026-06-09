@@ -255,7 +255,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = CHME25P8TX;
 				ENABLE_PREVIEWS = YES;
-				GENERATE_INFOPLIST_FILE = YES;
+				GENERATE_INFOPLIST_FILE = YES; INFOPLIST_KEY_NSMicrophoneUsageDescription = "AudioInsight needs microphone access to transcribe your audio."; INFOPLIST_KEY_NSSpeechRecognitionUsageDescription = "AudioInsight needs speech recognition to transcribe your audio on-device.";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -287,7 +287,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = CHME25P8TX;
 				ENABLE_PREVIEWS = YES;
-				GENERATE_INFOPLIST_FILE = YES;
+				GENERATE_INFOPLIST_FILE = YES; INFOPLIST_KEY_NSMicrophoneUsageDescription = "AudioInsight needs microphone access to transcribe your audio."; INFOPLIST_KEY_NSSpeechRecognitionUsageDescription = "AudioInsight needs speech recognition to transcribe your audio on-device.";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
