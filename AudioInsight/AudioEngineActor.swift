@@ -105,10 +105,12 @@ actor AudioEngineActor {
         self.powerContinuation?.yield(power)
     }
     
-    /// Handles the result from the speech recognizer.
     private func handleRecognitionResult(result: SFSpeechRecognitionResult?, error: Error?) {
         if let result = result {
-            self.textContinuation?.yield(result.bestTranscription.formattedString)
+            let text = result.bestTranscription.formattedString
+            if !text.isEmpty {
+                self.textContinuation?.yield(text)
+            }
         }
         
         // If there's an error or the result is strictly final, we can stop recording.
